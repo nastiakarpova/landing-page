@@ -12,6 +12,7 @@
     width: 100%;
     border: 2px solid chartreuse;
     justify-content: center;
+    padding: 12px;
 }
 
 nav, .hero {
@@ -20,6 +21,7 @@ nav, .hero {
     align-items: center;
     border: 2px solid salmon;
     flex: 0 0 70%;
+    padding: 8px;
 }
 
 .logo {
@@ -50,7 +52,7 @@ ul {
 
 .hero {
     border: 2px solid magenta;
-    margin: 60px 0;
+    margin: 80px 0;
     flex-wrap: wrap;
 }
 
@@ -59,7 +61,6 @@ ul {
     width: 40%;
     flex-wrap: wrap;
     border: 2px solid green;
-    gap: 12px;
     font-size: 18px;
 }
 
@@ -67,13 +68,14 @@ ul {
     font-size: 48px;
     font-weight: 800;
     color: #f9faf8;
+    line-height: 1.25em;
 }
 
 .image-right {
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 55%;
+    width: 50%;
     background-color: #757985;
     height: 100%;
 }
