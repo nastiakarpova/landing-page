@@ -79,3 +79,22 @@ ul {
     background-color: #757985;
     height: 100%;
 }
+
+button {
+    margin: 12px 0;
+    padding: 10px 32px 8px 32px;
+    font-weight: bold;
+    background-color: #3882f6;
+    border: none;
+    border-radius: 8px;
+    font-size: 18px;
+}
+
+button a {
+    text-decoration: none;
+    color: #f9faf8;
+}
+
+button:hover {
+    background-color: #2a78f5;
+}
