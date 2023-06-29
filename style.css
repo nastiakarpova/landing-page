@@ -1,13 +1,14 @@
 * {
     margin: 0;
     padding: 0;
+    font-family: 'Roboto', sans-serif;
 }
 
 .container {
     display: flex;
     flex-wrap: wrap;
     background-color: #1F2937;
-    color: #f9faf8;
+    color: #e5e7eb;
     width: 100%;
     border: 2px solid chartreuse;
     justify-content: center;
@@ -25,6 +26,7 @@ nav, .hero {
     font-size: 24px;
     font-weight: 600;
     border: 2px solid blue;
+    color: #f9faf8;
 }
 
 ul {
@@ -39,7 +41,7 @@ ul {
 
 .nav-links a {
     text-decoration: none;
-    color: #f9faf8;
+    color: #e5e7eb;
 }
 
 .nav-links a:hover {
@@ -58,6 +60,13 @@ ul {
     flex-wrap: wrap;
     border: 2px solid green;
     gap: 12px;
+    font-size: 18px;
+}
+
+.text-left h1 {
+    font-size: 48px;
+    font-weight: 800;
+    color: #f9faf8;
 }
 
 .image-right {
@@ -65,6 +74,6 @@ ul {
     justify-content: center;
     align-items: center;
     width: 55%;
-    background-color: #cecece;
+    background-color: #757985;
     height: 100%;
 }
