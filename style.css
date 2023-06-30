@@ -150,7 +150,6 @@ button:hover {
     flex-wrap: wrap;
     justify-content: center;
     gap: 6px;
-    border: 2px solid salmon;
     background-color: #e5e7eb;
     color: #1f2937;
     padding: 150px 0;
@@ -167,7 +166,6 @@ button:hover {
     display: flex;
     justify-content: flex-end;
     flex-basis: 40%;
-    border: 2px solid rgb(255, 0, 115);
     font-weight: 800;
 }
 
