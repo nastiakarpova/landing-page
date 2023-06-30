@@ -20,7 +20,7 @@ nav, .hero {
     justify-content: space-between;
     align-items: center;
     border: 2px solid salmon;
-    flex: 0 0 70%;
+    flex: 0 0 60%;
     padding: 8px;
 }
 
@@ -63,6 +63,8 @@ ul {
     flex-wrap: wrap;
     border: 2px solid green;
     font-size: 18px;
+    font-stretch: extra-expanded;
+    line-height: 1.25em;
 }
 
 .text-left h1 {
@@ -76,7 +78,7 @@ ul {
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 50%;
+    width: 55%;
     background-color: #757985;
     height: 100%;
 }
