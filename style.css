@@ -142,3 +142,29 @@ button:hover {
     color: #757985;
     font-size: 16px;
 }
+
+/* Section two */
+
+.second-section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 6px;
+    border: 2px solid salmon;
+}
+
+.second-section blockquote {
+    width: 40%;
+}
+
+.second-section p {
+    display: flex;
+    justify-content: flex-end;
+    flex-basis: 40%;
+    border: 2px solid rgb(255, 0, 115);
+}
+
+.break {
+    flex-basis: 100%;
+    height: 0;
+}
