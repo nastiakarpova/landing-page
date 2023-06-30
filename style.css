@@ -105,6 +105,13 @@ button:hover {
     border: 2px solid greenyellow;
 }
 
+.first-section h2 {
+    font-size: 36px;
+    font-weight: 600;
+    color: #1f2937;
+    padding: 48px 0px;
+}
+
 .cards {
     display: flex;
     border: 2px solid red;
@@ -132,4 +139,8 @@ button:hover {
 
 .card p {
     width: 150px;
+    text-align: justify;
+    text-align-last: center;
+    color: #757985;
+    font-size: 16px;
 }
